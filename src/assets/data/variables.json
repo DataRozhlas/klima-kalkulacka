@@ -1,0 +1,308 @@
+[
+  {
+    "feature": "GDF",
+    "importance": "16.884174569414125",
+    "label": "Co si myslíte o budoucnosti Zelené dohody pro Evropu / Green Deal?",
+    "values": [
+      {
+        "value": 1,
+        "label": "měla by být zrušena"
+      },
+      {
+        "value": 2,
+        "label": "měla by být ve svých cílech oslabena"
+      },
+      {
+        "value": 3,
+        "label": "měla by zůstat, jak je"
+      },
+      {
+        "value": 4,
+        "label": "měla by být posílena a rozšířena o další cíle"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "feature": "NAR_19",
+    "importance": "8.436509771954826",
+    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Mladí i staří by měli spojit síly pro řešení změny klimatu.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "feature": "NAR_30",
+    "importance": "8.377476810185359",
+    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Česká republika by se měla mnohem aktivněji zapojit do ochrany klimatu.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "feature": "NAR_16",
+    "importance": "8.294055588475258",
+    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Měli bychom už konečně poslouchat skutečné odborníky – klimatology, kteří před změnou klimatu varují.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "feature": "NAR_43",
+    "importance": "7.609555261798797",
+    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Zelená dohoda pro Evropu (Green Deal) bude pro Českou republiku přínosná.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "feature": "POL_8",
+    "importance": "7.018959313894962",
+    "label": "Do jaké míry souhlasíte či… | přijmout klimatický zákon, který stanoví závazky a kroky České republiky ke snižování emisí poškozujících světové klima",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu odpovědět"
+      }
+    ]
+  },
+  {
+    "feature": "NAR_12",
+    "importance": "7.006353558976943",
+    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Ochrana klimatu je příležitost pro Českou republiku.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "feature": "NAR_8",
+    "importance": "6.606259290703286",
+    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Záleží mi na ochraně klimatu.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "feature": "POL_2",
+    "importance": "6.431706369816467",
+    "label": "Do jaké míry souhlasíte či… | ekonomicky přispívat domácnostem a firmám na nákup elektromobilů/elektroaut",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu odpovědět"
+      }
+    ]
+  },
+  {
+    "feature": "NAR_15",
+    "importance": "6.408828424305854",
+    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Změnou  klimatu jsem znepokojen(a) víc než naše vláda.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  }
+]
