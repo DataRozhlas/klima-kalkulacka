@@ -1,6 +1,6 @@
 # todo
 
-- [ ] set state
-- [ ] load qs
+- [x] set state
+- [x] load qs
 - [ ] connect API
 - [ ] evaluate

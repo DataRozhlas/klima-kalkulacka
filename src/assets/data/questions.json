@@ -1,7 +1,7 @@
 [
   {
-    "order": "15",
-    " feature": "GDF",
+    "order": 15,
+    "feature": "GDF",
     "label": "Co si myslíte o budoucnosti Zelené dohody pro Evropu / Green Deal?",
     "values": [
       {
@@ -27,8 +27,8 @@
     ]
   },
   {
-    "order": "10",
-    " feature": "NAR_30",
+    "order": 10,
+    "feature": "NAR_30",
     "label": "Česká republika by se měla mnohem aktivněji zapojit do ochrany klimatu.",
     "values": [
       {
@@ -58,8 +58,8 @@
     ]
   },
   {
-    "order": "3",
-    " feature": "NAR_11",
+    "order": 3,
+    "feature": "NAR_11",
     "label": "S ochranou klimatu se to přehání.",
     "values": [
       {
@@ -89,8 +89,8 @@
     ]
   },
   {
-    "order": "12",
-    " feature": "NAR_7",
+    "order": 12,
+    "feature": "NAR_7",
     "label": "Ochrana klimatu je výmysl Evropské unie.",
     "values": [
       {
@@ -120,8 +120,8 @@
     ]
   },
   {
-    "order": "14",
-    " feature": "NAR_19",
+    "order": 14,
+    "feature": "NAR_19",
     "label": "Mladí i staří by měli spojit síly pro řešení změny klimatu.",
     "values": [
       {
@@ -151,8 +151,8 @@
     ]
   },
   {
-    "order": "9",
-    " feature": "NAR_10",
+    "order": 9,
+    "feature": "NAR_10",
     "label": "Ochrana klimatu musí být nadřazena všem ostatním problémům, které musíme v současnosti řešit.",
     "values": [
       {
@@ -182,8 +182,8 @@
     ]
   },
   {
-    "order": "8",
-    " feature": "NAR_15",
+    "order": 8,
+    "feature": "NAR_15",
     "label": "Změnou  klimatu jsem znepokojen(a) víc než naše vláda.",
     "values": [
       {
@@ -213,8 +213,8 @@
     ]
   },
   {
-    "order": "7",
-    " feature": "NAR_13",
+    "order": 7,
+    "feature": "NAR_13",
     "label": "Ochrana klimatu je příležitost změnit náš život k lepšímu.",
     "values": [
       {
@@ -244,8 +244,8 @@
     ]
   },
   {
-    "order": "13",
-    " feature": "NAR_6",
+    "order": 13,
+    "feature": "NAR_6",
     "label": "Žijeme v době klimatické krize.",
     "values": [
       {
@@ -275,8 +275,8 @@
     ]
   },
   {
-    "order": "2",
-    " feature": "NAR_16",
+    "order": 2,
+    "feature": "NAR_16",
     "label": "Měli bychom už konečně poslouchat skutečné odborníky – klimatology, kteří před změnou klimatu varují.",
     "values": [
       {
@@ -306,8 +306,8 @@
     ]
   },
   {
-    "order": "1",
-    " feature": "NAR_3",
+    "order": 1,
+    "feature": "NAR_3",
     "label": "Mám obavy z klimatické změny.",
     "values": [
       {
@@ -337,8 +337,8 @@
     ]
   },
   {
-    "order": "11",
-    " feature": "NAR_14",
+    "order": 11,
+    "feature": "NAR_14",
     "label": "Bez ochrany klimatu nedokážeme uchránit ani naši českou krajinu a přírodu.",
     "values": [
       {
@@ -368,8 +368,8 @@
     ]
   },
   {
-    "order": "6",
-    " feature": "NAR_2",
+    "order": 6,
+    "feature": "NAR_2",
     "label": "Emise, které vypustíme dnes, ovlivní to, v jakém světě budou žít naše děti.",
     "values": [
       {
@@ -399,8 +399,8 @@
     ]
   },
   {
-    "order": "4",
-    " feature": "NAR_39",
+    "order": 4,
+    "feature": "NAR_39",
     "label": "Potřebujeme přejít od špinavých průmyslových technologií k těm čistým – pro přírodu i pro lidi.",
     "values": [
       {
@@ -430,8 +430,8 @@
     ]
   },
   {
-    "order": "5",
-    " feature": "NAR_24",
+    "order": 5,
+    "feature": "NAR_24",
     "label": "Je správné protestovat proti firmám, které vydělávají na těžbě a spalování uhlí.",
     "values": [
       {

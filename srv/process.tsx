@@ -17,6 +17,7 @@ const rawData = await Bun.file('srv/data/questions.csv').text().then((data) => {
 const result = rawData.map((row) => {
     return {
         ...row,
+        order: parseInt(row.order),
         values: row.values.split("',").map((value) => {
             return {
                 value: extractDecimal(value),
@@ -26,4 +27,4 @@ const result = rawData.map((row) => {
     }
 });
 
-Bun.write('src/assets/data/variables.json', JSON.stringify(result, null, 2));
+Bun.write('src/assets/data/questions.json', JSON.stringify(result, null, 2));

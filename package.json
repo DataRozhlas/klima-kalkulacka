@@ -11,6 +11,8 @@
     "production": "aws s3 sync dist s3://datarozhlas/klima-kalkulacka --delete --acl public-read && aws cloudfront create-invalidation --distribution-id E3ABKG4QXPTL3P --paths '/klima-kalkulacka/*'"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-radio-group": "^1.2.1",
     "@radix-ui/react-slot": "^1.1.0",
     "@types/bun": "^1.1.11",
     "class-variance-authority": "^0.7.0",
