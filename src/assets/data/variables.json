@@ -1,7 +1,7 @@
 [
   {
-    "feature": "GDF",
-    "importance": "16.884174569414125",
+    "order": "15",
+    " feature": "GDF",
     "label": "Co si myslíte o budoucnosti Zelené dohody pro Evropu / Green Deal?",
     "values": [
       {
@@ -27,9 +27,9 @@
     ]
   },
   {
-    "feature": "NAR_19",
-    "importance": "8.436509771954826",
-    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Mladí i staří by měli spojit síly pro řešení změny klimatu.",
+    "order": "10",
+    " feature": "NAR_30",
+    "label": "Česká republika by se měla mnohem aktivněji zapojit do ochrany klimatu.",
     "values": [
       {
         "value": 1,
@@ -58,9 +58,9 @@
     ]
   },
   {
-    "feature": "NAR_30",
-    "importance": "8.377476810185359",
-    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Česká republika by se měla mnohem aktivněji zapojit do ochrany klimatu.",
+    "order": "3",
+    " feature": "NAR_11",
+    "label": "S ochranou klimatu se to přehání.",
     "values": [
       {
         "value": 1,
@@ -89,9 +89,9 @@
     ]
   },
   {
-    "feature": "NAR_16",
-    "importance": "8.294055588475258",
-    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Měli bychom už konečně poslouchat skutečné odborníky – klimatology, kteří před změnou klimatu varují.",
+    "order": "12",
+    " feature": "NAR_7",
+    "label": "Ochrana klimatu je výmysl Evropské unie.",
     "values": [
       {
         "value": 1,
@@ -120,9 +120,9 @@
     ]
   },
   {
-    "feature": "NAR_43",
-    "importance": "7.609555261798797",
-    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Zelená dohoda pro Evropu (Green Deal) bude pro Českou republiku přínosná.",
+    "order": "14",
+    " feature": "NAR_19",
+    "label": "Mladí i staří by měli spojit síly pro řešení změny klimatu.",
     "values": [
       {
         "value": 1,
@@ -151,40 +151,9 @@
     ]
   },
   {
-    "feature": "POL_8",
-    "importance": "7.018959313894962",
-    "label": "Do jaké míry souhlasíte či… | přijmout klimatický zákon, který stanoví závazky a kroky České republiky ke snižování emisí poškozujících světové klima",
-    "values": [
-      {
-        "value": 1,
-        "label": "rozhodně nesouhlasím"
-      },
-      {
-        "value": 2,
-        "label": "spíše nesouhlasím"
-      },
-      {
-        "value": 3,
-        "label": "tak ani tak"
-      },
-      {
-        "value": 4,
-        "label": "spíše souhlasím"
-      },
-      {
-        "value": 5,
-        "label": "rozhodně souhlasím"
-      },
-      {
-        "value": 99,
-        "label": "nedokážu odpovědět"
-      }
-    ]
-  },
-  {
-    "feature": "NAR_12",
-    "importance": "7.006353558976943",
-    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Ochrana klimatu je příležitost pro Českou republiku.",
+    "order": "9",
+    " feature": "NAR_10",
+    "label": "Ochrana klimatu musí být nadřazena všem ostatním problémům, které musíme v současnosti řešit.",
     "values": [
       {
         "value": 1,
@@ -213,9 +182,9 @@
     ]
   },
   {
-    "feature": "NAR_8",
-    "importance": "6.606259290703286",
-    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Záleží mi na ochraně klimatu.",
+    "order": "8",
+    " feature": "NAR_15",
+    "label": "Změnou  klimatu jsem znepokojen(a) víc než naše vláda.",
     "values": [
       {
         "value": 1,
@@ -244,9 +213,9 @@
     ]
   },
   {
-    "feature": "POL_2",
-    "importance": "6.431706369816467",
-    "label": "Do jaké míry souhlasíte či… | ekonomicky přispívat domácnostem a firmám na nákup elektromobilů/elektroaut",
+    "order": "7",
+    " feature": "NAR_13",
+    "label": "Ochrana klimatu je příležitost změnit náš život k lepšímu.",
     "values": [
       {
         "value": 1,
@@ -270,14 +239,200 @@
       },
       {
         "value": 99,
-        "label": "nedokážu odpovědět"
+        "label": "nedokážu posoudit"
       }
     ]
   },
   {
-    "feature": "NAR_15",
-    "importance": "6.408828424305854",
-    "label": "Souhlasíte, či nesouhlasíte s následujícími… | Změnou  klimatu jsem znepokojen(a) víc než naše vláda.",
+    "order": "13",
+    " feature": "NAR_6",
+    "label": "Žijeme v době klimatické krize.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "order": "2",
+    " feature": "NAR_16",
+    "label": "Měli bychom už konečně poslouchat skutečné odborníky – klimatology, kteří před změnou klimatu varují.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "order": "1",
+    " feature": "NAR_3",
+    "label": "Mám obavy z klimatické změny.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "order": "11",
+    " feature": "NAR_14",
+    "label": "Bez ochrany klimatu nedokážeme uchránit ani naši českou krajinu a přírodu.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "order": "6",
+    " feature": "NAR_2",
+    "label": "Emise, které vypustíme dnes, ovlivní to, v jakém světě budou žít naše děti.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "order": "4",
+    " feature": "NAR_39",
+    "label": "Potřebujeme přejít od špinavých průmyslových technologií k těm čistým – pro přírodu i pro lidi.",
+    "values": [
+      {
+        "value": 1,
+        "label": "rozhodně nesouhlasím"
+      },
+      {
+        "value": 2,
+        "label": "spíše nesouhlasím"
+      },
+      {
+        "value": 3,
+        "label": "tak ani tak"
+      },
+      {
+        "value": 4,
+        "label": "spíše souhlasím"
+      },
+      {
+        "value": 5,
+        "label": "rozhodně souhlasím"
+      },
+      {
+        "value": 99,
+        "label": "nedokážu posoudit"
+      }
+    ]
+  },
+  {
+    "order": "5",
+    " feature": "NAR_24",
+    "label": "Je správné protestovat proti firmám, které vydělávají na těžbě a spalování uhlí.",
     "values": [
       {
         "value": 1,

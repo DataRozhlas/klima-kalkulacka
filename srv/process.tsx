@@ -10,7 +10,7 @@ const cleanLabel = (str: string): string => {
 };
 
 
-const rawData = await Bun.file('srv/data/variables.csv').text().then((data) => {
+const rawData = await Bun.file('srv/data/questions.csv').text().then((data) => {
     return d3.csvParse(data);
 });
 
