@@ -1,45 +1,94 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import questions from './assets/data/questions.json'
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  // CarouselNext,
+  // CarouselPrevious,
 } from "@/components/ui/carousel"
+import { type CarouselApi } from "@/components/ui/carousel"
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
+import { Button } from "@/components/ui/button"
 
 
 function App() {
 
-  const [questionList, setQuestionList] = useState(questions);
+  const [api, setApi] = useState<CarouselApi>()
+  const [current, setCurrent] = useState(0)
+  const [count, setCount] = useState(0)
+
+  const [result, setResult] = useState<(undefined | number)[]>(new Array(questions.length).fill(undefined));
+  const [group, setGroup] = useState<string>('');
+
+  useEffect(() => {
+    if (!api) {
+      return
+    }
+
+    setCount(api.scrollSnapList().length)
+    setCurrent(api.selectedScrollSnap() + 1)
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap() + 1)
+    })
+  }, [api])
+
+  const evaluateData = async (data: (undefined | number)[]): Promise<string> => {
+    if (data === undefined) {
+      return "Něco se pokazilo"
+    }
+    // @ts-ignore
+    const result = await fetch(`https://d3puw5tik2fxlx.cloudfront.net/?${btoa(data)}`)
+      .then((response) => response.json())
+    setGroup(result)
+    return result;
+  }
+
+  useEffect(() => {
+    if (!result.includes(undefined)) {
+      evaluateData(result)
+    }
+  }, [result])
 
   return (
     <div className="max-w-[620px] mx-auto">
-      <Carousel className="w-full">
+      <Carousel setApi={setApi} className="w-full">
         <CarouselContent>
 
-          {questionList.map((_, index) => {
-            const question = questionList.find(q => q.order - 1 === index)
+          {questions.map((_, index) => {
+            const question = questions.find(q => q.order - 1 === index)
+            const questionIndex = questions.findIndex(q => q.order - 1 === index)
             return (
               <CarouselItem key={index}>
-                <div className="p-1">
-                  <Card>
-                    <CardContent className="flex aspect-square items-center justify-center p-6">
-                      <div className="flex flex-col gap-6">
-                        <span className="text-4xl font-semibold">{question?.label}</span>
-                        <RadioGroup defaultValue="option-one">
+                <div className="p-1 h-full">
+                  <Card className="h-full">
+                    <CardContent className="p-6 h-full">
+                      <div className="h-full flex flex-col items-center justify-between gap-6">
+                        <div className="text-4xl font-semibold text-center">{question?.label}</div>
+                        <RadioGroup value={result[questionIndex]?.toString()} onValueChange={(v) => {
+                          setResult((prev) => {
+                            const newResult = [...prev]
+                            newResult[questionIndex] = parseInt(v)
+                            return newResult
+                          })
+                        }
+                        }>
                           {
                             question?.values.map((value, index) => (
-                              <div className="flex items-center space-x-2">
-                                <RadioGroupItem value="option-one" id="option-one" />
-                                <Label htmlFor="option-one">{value.label}</Label>
+                              <div key={`q-${index}`} className="flex items-center space-x-2">
+                                <RadioGroupItem value={value.value.toString()} id={`option-${index}`} />
+                                <Label htmlFor={`option-${index}`}>{value.label}</Label>
                               </div>
                             ))
                           }
                         </RadioGroup>
+                        <div>
+                          <Button disabled={result[questionIndex] === undefined} onClick={() => api?.scrollNext()}>{current === count ? "Vyhodnotit" : "Další otázka"}</Button>
+                          <div className="text-sm text-center pt-4">{current} z {count}</div>
+                        </div>
                       </div>
                     </CardContent>
                   </Card>
@@ -47,10 +96,24 @@ function App() {
               </CarouselItem>
             )
           })}
+          {
+            !result.includes(undefined) && <CarouselItem>
+              <div className="p-1 h-full">
+                <Card className="h-full">
+                  <CardContent className="p-6 h-full">
+                    <div className="h-full flex flex-col items-center justify-between gap-6">
+                      <div className="text-4xl font-semibold text-center">Patříte do skupiny {group}</div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </CarouselItem>
+          }
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        {/* <CarouselPrevious />
+        <CarouselNext /> */}
       </Carousel>
+      <div>{JSON.stringify(result)}</div>
     </div>
   )
 }

@@ -2,5 +2,5 @@
 
 - [x] set state
 - [x] load qs
-- [ ] connect API
-- [ ] evaluate
+- [x] connect API
+- [x] evaluate
