@@ -1,0 +1,114 @@
+[
+    {
+        "title": "Angažované pro Zelenou dohodu",
+        "share": "8 % populace",
+        "code": 4,
+        "summary": "Silně podporujete ochranu klimatu včetně Zelené dohody",
+        "points": [
+            "typickou představitelkou je žena ve věku 44 let",
+            "má nadprůměrné vzdělání a zastupuje střední třídu",
+            "k volbám chodí mírně nadprůměrně, podporuje vládní koalici",
+            "je prozápadně orientovaná, inspiruje se moderními trendy",
+            "důvěřuje vědcům, Evropské unii, neziskovým organizacím",
+            "klimatickou změnu vnímá jako největší problém dnešní doby",
+            "volá po okamžité dekarbonizaci, podporuje obnovitelné a jaderné zdroje",
+            "hodnotí Zelenou dohodu pozitivně, chce zvýšit klimatické cíle"
+        ]
+    },
+    {
+        "title": "Angažované bez Zelené dohody",
+        "share": "8 % populace",
+        "code": 5,
+        "summary": "Podporujete ochranu klimatu, ale máte pochybnosti o Zelené dohodě",
+        "points": [
+            "typickou představitelkou je žena ve věku 53 let",
+            "má nižší vzdělání, patří do střední až nižší třídy",
+            "chodí podprůměrně k volbám, podporuje spíše opoziční strany",
+            "důraz na sociální témata, menší majetkové rozdíly",
+            "váhá ohledně kapitulace Ukrajiny, podporuje stejnopohlavní sňatky",
+            "důvěřuje vědcům a ochráncům přírody",
+            "obává se dopadu dekarbonizace na ohrožené skupiny",
+            "podporuje obnovitelné a jaderné zdroje, váhá nad plynem"
+        ]
+    },
+    {
+        "title": "Sympatizující",
+        "share": "22 % populace",
+        "code": 1,
+        "summary": "Podporujete ochranu klimatu, ale zůstáváte obezřetní a pragmatičtí",
+        "points": [
+            "typickou představitelkou je žena ve věku 45 let",
+            "má nadprůměrné vzdělání, mírně nadprůměrné příjmy",
+            "chodí nadprůměrně k volbám, podporuje vládní koalici",
+            "věří vědcům, ochráncům přírody a neziskovým organizacím",
+            "podporuje obnovitelné a částečně jaderné zdroje",
+            "důvěřuje Ministerstvu životního prostředí",
+            "oceňuje praktický přístup k ochraně klimatu",
+            "má ambivalentní názor na Zelenou dohodu"
+        ]
+    },
+    {
+        "title": "Vlažné",
+        "share": "23 % populace",
+        "code": 0,
+        "summary": "Podporujete ochranu klimatu, ale obáváte se dopadů dekarbonizace",
+        "points": [
+            "typickým představitelem je muž ve věku 47 let",
+            "má středoškolské vzdělání, průměrné příjmy",
+            "chodí méně často k volbám, podporuje prozápadní orientaci",
+            "důvěřuje vědcům, ale nezneklidňují ho dopady klimatické změny",
+            "podporuje obnovitelné a jaderné zdroje",
+            "váhá nad snižováním emisí a dekarbonizací",
+            "negativně vnímá tlaky seshora v oblasti ochrany klimatu",
+            "odmítá Zelenou dohodu, obává se sociálních a ekonomických dopadů"
+        ]
+    },
+    {
+        "title": "Nejisté",
+        "share": "16 % populace",
+        "code": 3,
+        "summary": "Uvědomujete si potřebu ochrany klimatu, ale váháte v mnoha otázkách",
+        "points": [
+            "typickou představitelkou je žena ve věku 48 let",
+            "má podprůměrné vzdělání, žije v domácnosti s nižšími příjmy",
+            "politiku sleduje nejméně, nechodí často k volbám",
+            "důvěřuje vědcům a ochráncům přírody",
+            "váhá se snižováním emisí skleníkových plynů",
+            "nemá vyhraněný názor na budoucnost Zelené dohody",
+            "podporuje posilování odolnosti české krajiny",
+            "ochranu klimatu považuje za důležitou, ale ne osobní prioritu"
+        ]
+    },
+    {
+        "title": "Odmítající",
+        "share": "18 % populace",
+        "code": 2,
+        "summary": "Odmítáte ochranu klimatu a Zelenou dohodu",
+        "points": [
+            "typickým představitelem je muž ve věku 52 let",
+            "má maturitní vzdělání, nadprůměrné příjmy",
+            "chodí nadprůměrně k volbám, podporuje opoziční strany",
+            "sympatizuje s populistickými a autoritářskými vůdci",
+            "váhá nad kapitulací Ukrajiny, odmítá neziskové organizace",
+            "věří vědcům, ale změnu klimatu nepovažuje za hrozbu",
+            "podporuje jaderné a obnovitelné zdroje, ale odmítá uhlí",
+            "rezolutně odmítá Zelenou dohodu a ochranu klimatu"
+        ]
+    },
+    {
+        "title": "Popírající",
+        "share": "6 % populace",
+        "code": 6,
+        "summary": "Zpochybňujete změnu klimatu a odmítáte ochranu klimatu i Zelenou dohodu",
+        "points": [
+            "typickým představitelem je muž ve věku 53 let",
+            "má podprůměrné vzdělání, patří do střední třídy",
+            "prakticky vůbec nevěří médiím a institucím",
+            "podporuje vystoupení z Evropské unie",
+            "sympatizuje s populistickými a autoritářskými vůdci",
+            "odmítá snižování emisí a ochranu klimatu",
+            "schvaluje spalování uhlí a plynu, podporuje spalovací motory",
+            "rezolutně odmítá Zelenou dohodu a ekologická opatření"
+        ]
+    }
+]
