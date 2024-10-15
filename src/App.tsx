@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className="max-w-[620px] mx-auto">
-      <Carousel setApi={setApi} className="w-full">
+      <Carousel setApi={setApi} className="w-full" opts={{ duration: 0 }}>
         <CarouselContent>
 
           {questions.map((_, index) => {
@@ -77,12 +77,15 @@ function App() {
                         }
                         }>
                           {
-                            question?.values.map((value, index) => (
-                              <div key={`q-${index}`} className="flex items-center space-x-2">
-                                <RadioGroupItem value={value.value.toString()} id={`option-${index}`} />
-                                <Label htmlFor={`option-${index}`}>{value.label}</Label>
-                              </div>
-                            ))
+                            question?.values.map((value, index) => {
+                              const uid = crypto.randomUUID()
+                              return (
+                                <div key={`q-${uid}`} className="flex items-center space-x-2 pt-1">
+                                  <RadioGroupItem value={value.value.toString()} id={`option-${index}-${uid}`} />
+                                  <Label htmlFor={`option-${index}-${uid}`}>{value.label}</Label>
+                                </div>
+                              )
+                            })
                           }
                         </RadioGroup>
                         <div>
