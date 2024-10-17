@@ -16,6 +16,8 @@ import { Button } from "@/components/ui/button"
 import { LoadingSpinner } from './components/ui/spinner'
 import { ArrowRight } from 'lucide-react'
 
+import { usePostMessageWithHeight } from './hooks/usePostHeightMessage'
+
 
 function App() {
 
@@ -27,6 +29,13 @@ function App() {
   const [group, setGroup] = useState<null | number>(null);
   const [summary, setSummary] = useState<{ title: string, share: string, code: null | number, summary: string, points: string[] }>({ title: "", share: "", code: null, summary: "", points: [] });
   const [vyhodnotit, setVyhodnotit] = useState(false)
+
+  const { containerRef, postHeightMessage } = usePostMessageWithHeight(`klima-kalkulacka-24`)
+
+  useEffect(() => {
+    postHeightMessage()
+  }, [current, vyhodnotit, group])
+
 
   useEffect(() => {
     if (!api) {
@@ -68,7 +77,7 @@ function App() {
   }, [result])
 
   return (
-    <div className="max-w-[620px] mx-auto">
+    <div ref={containerRef} className="max-w-[620px] mx-auto py-4">
       {(vyhodnotit === false || group === null) &&
         < Carousel setApi={setApi} className="w-full" /* opts={{ duration: 0 }} */>
           <CarouselContent>
@@ -81,36 +90,37 @@ function App() {
                   <div className="p-1 h-full">
                     <Card className="h-full">
                       <CardContent className="p-6 h-full">
-                        {vyhodnotit === true && group === null && <LoadingSpinner size={48} className='h-full mx-auto' />}
                         <div className="h-full flex flex-col items-center justify-between gap-6">
-                          <div className="text-4xl font-semibold text-center">{question?.label}</div>
-                          <RadioGroup value={result[questionIndex]?.toString() || ""} onValueChange={(v) => {
-                            setResult((prev) => {
-                              const newResult = [...prev]
-                              newResult[questionIndex] = parseInt(v)
-                              return newResult
-                            })
-                          }
-                          }>
-                            {
-                              question?.values.map((value, index) => {
-                                const uid = crypto.randomUUID()
-                                return (
-                                  <div key={`q-${uid}`} className="flex items-center space-x-2 pt-1">
-                                    <RadioGroupItem value={value.value.toString()} id={`option-${index}-${uid}`} />
-                                    <Label htmlFor={`option-${index}-${uid}`}>{value.label}</Label>
-                                  </div>
-                                )
+                          {vyhodnotit === true && group === null && <LoadingSpinner size={48} className='h-full min-h-96 mx-auto' />}
+                          {vyhodnotit === false && <>
+                            <div className="text-4xl font-semibold text-center">{question?.label}</div>
+                            <RadioGroup value={result[questionIndex]?.toString() || ""} onValueChange={(v) => {
+                              setResult((prev) => {
+                                const newResult = [...prev]
+                                newResult[questionIndex] = parseInt(v)
+                                return newResult
                               })
                             }
-                          </RadioGroup>
-                          <div className="w-full">
-                            <Button className="w-full" disabled={result[questionIndex] === undefined} onClick={() => {
-                              if (current === count) { setVyhodnotit(true) }
-                              api?.scrollNext()
-                            }}>{current === count ? "Vyhodnotit" : <>Další otázka <ArrowRight className={"ml-2 h-5 w-5"} /></>}</Button>
-                            <div className="text-sm text-center pt-4">{current} z {count}</div>
-                          </div>
+                            }>
+                              {
+                                question?.values.map((value, index) => {
+                                  const uid = crypto.randomUUID()
+                                  return (
+                                    <div key={`q-${uid}`} className="flex items-center space-x-2 pt-1">
+                                      <RadioGroupItem value={value.value.toString()} id={`option-${index}-${uid}`} />
+                                      <Label htmlFor={`option-${index}-${uid}`}>{value.label}</Label>
+                                    </div>
+                                  )
+                                })
+                              }
+                            </RadioGroup>
+                            <div className="w-full">
+                              <Button className="w-full" disabled={result[questionIndex] === undefined} onClick={() => {
+                                if (current === count) { setVyhodnotit(true) }
+                                api?.scrollNext()
+                              }}>{current === count ? "Vyhodnotit" : <>Další otázka <ArrowRight className={"ml-2 h-5 w-5"} /></>}</Button>
+                              <div className="text-sm text-center pt-4">{current} z {count}</div>
+                            </div></>}
                         </div>
                       </CardContent>
                     </Card>
