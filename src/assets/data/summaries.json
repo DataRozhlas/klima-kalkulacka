@@ -5,13 +5,13 @@
         "code": 4,
         "summary": "Silně podporujete ochranu klimatu včetně Zelené dohody",
         "points": [
-            "typickou představitelkou je žena ve věku 44 let",
-            "má nadprůměrné vzdělání a zastupuje střední třídu",
-            "k volbám chodí mírně nadprůměrně, podporuje vládní koalici",
-            "je prozápadně orientovaná, inspiruje se moderními trendy",
-            "důvěřuje vědcům, Evropské unii, neziskovým organizacím",
-            "klimatickou změnu vnímá jako největší problém dnešní doby",
-            "volá po okamžité dekarbonizaci, podporuje obnovitelné a jaderné zdroje",
+            "typickou představitelkou je <strong>žena</strong> ve věku <strong>44 let</strong>",
+            "má <strong>nadprůměrné vzdělání</strong> a zastupuje střední třídu",
+            "k volbám chodí mírně nadprůměrně, <strong>podporuje vládní koalici</strong>",
+            "je <strong>prozápadně orientovaná</strong>, inspiruje se moderními trendy",
+            "důvěřuje vědcům, Evropské unii, neziskovým organizacím, ochráncům přírody a prezidentovi",
+            "klimatickou změnu vnímá jako <strong>největší problém dnešní doby</strong>",
+            "volá po <strong>okamžité dekarbonizaci</strong>, podporuje obnovitelné a jaderné zdroje",
             "hodnotí Zelenou dohodu pozitivně, chce zvýšit klimatické cíle"
         ]
     },
@@ -21,14 +21,14 @@
         "code": 5,
         "summary": "Podporujete ochranu klimatu, ale máte pochybnosti o Zelené dohodě",
         "points": [
-            "typickou představitelkou je žena ve věku 53 let",
-            "má nižší vzdělání, patří do střední až nižší třídy",
-            "chodí podprůměrně k volbám, podporuje spíše opoziční strany",
-            "důraz na sociální témata, menší majetkové rozdíly",
-            "váhá ohledně kapitulace Ukrajiny, podporuje stejnopohlavní sňatky",
+            "typickou představitelkou je <b>žena</b> ve věku <b>53 let</b>",
+            "má <b>nižší vzdělání</b>, patří do střední až nižší třídy",
+            "chodí podprůměrně k volbám, podporuje spíše <b>opoziční strany</b>",
+            "klade důraz na sociální témata a menší majetkové rozdíly",
+            "<b>váhá ohledně kapitulace Ukrajiny</b>, podporuje stejnopohlavní sňatky",
             "důvěřuje vědcům a ochráncům přírody",
-            "obává se dopadu dekarbonizace na ohrožené skupiny",
-            "podporuje obnovitelné a jaderné zdroje, váhá nad plynem"
+            "<b>obává se dopadu dekarbonizace</b> na ohrožené skupiny",
+            "podporuje obnovitelné a jaderné zdroje, částečně i plynové"
         ]
     },
     {
@@ -37,13 +37,12 @@
         "code": 1,
         "summary": "Podporujete ochranu klimatu, ale zůstáváte obezřetní a pragmatičtí",
         "points": [
-            "typickou představitelkou je žena ve věku 45 let",
-            "má nadprůměrné vzdělání, mírně nadprůměrné příjmy",
-            "chodí nadprůměrně k volbám, podporuje vládní koalici",
-            "věří vědcům, ochráncům přírody a neziskovým organizacím",
+            "typickou představitelkou je <b>žena</b> ve věku <b>45 let</b>",
+            "má <b>nadprůměrné vzdělání</b>, žije v domácnosti s mírně nadprůměrnými příjmy",
+            "chodí nadprůměrně k volbám, <b>podporuje vládní koalici</b>",
+            "věří vědcům, ochráncům přírody, neziskovým organizacím a ministerstvu životního prostředí",
             "podporuje obnovitelné a částečně jaderné zdroje",
-            "důvěřuje Ministerstvu životního prostředí",
-            "oceňuje praktický přístup k ochraně klimatu",
+            "<b>oceňuje praktický přístup</b> k ochraně klimatu",
             "má ambivalentní názor na Zelenou dohodu"
         ]
     },
@@ -53,14 +52,14 @@
         "code": 0,
         "summary": "Podporujete ochranu klimatu, ale obáváte se dopadů dekarbonizace",
         "points": [
-            "typickým představitelem je muž ve věku 47 let",
-            "má středoškolské vzdělání, průměrné příjmy",
-            "chodí méně často k volbám, podporuje prozápadní orientaci",
-            "důvěřuje vědcům, ale nezneklidňují ho dopady klimatické změny",
+            "typickým představitelem je <b>muž</b> ve věku <b>47 let</b>",
+            "má <b>středoškolské</b> vzdělání, <b>průměrné příjmy</b>",
+            "chodí méně často k volbám, podporuje <b>prozápadní orientaci</b>",
+            "<b>důvěřuje vědcům</b>, ale nezneklidňují ho dopady klimatické změny",
             "podporuje obnovitelné a jaderné zdroje",
             "váhá nad snižováním emisí a dekarbonizací",
-            "negativně vnímá tlaky seshora v oblasti ochrany klimatu",
-            "odmítá Zelenou dohodu, obává se sociálních a ekonomických dopadů"
+            "<b>negativně vnímá tlaky seshora</b> v oblasti ochrany klimatu",
+            "odmítá Zelenou dohodu, <b>obává se sociálních a ekonomických dopadů</b>"
         ]
     },
     {
@@ -69,14 +68,14 @@
         "code": 3,
         "summary": "Uvědomujete si potřebu ochrany klimatu, ale váháte v mnoha otázkách",
         "points": [
-            "typickou představitelkou je žena ve věku 48 let",
-            "má podprůměrné vzdělání, žije v domácnosti s nižšími příjmy",
-            "politiku sleduje nejméně, nechodí často k volbám",
+            "typickou představitelkou je <b>žena</b> ve věku <b>48 let</b>",
+            "má <b>podprůměrné vzdělání</b>, žije v domácnosti s nižšími příjmy",
+            "politiku sleduje nejméně, <b>méně často chodí k volbám</b>",
             "důvěřuje vědcům a ochráncům přírody",
-            "váhá se snižováním emisí skleníkových plynů",
-            "nemá vyhraněný názor na budoucnost Zelené dohody",
+            "<b>váhá se snižováním emisí</b> skleníkových plynů",
+            "<b>nemá vyhraněný názor</b> na budoucnost Zelené dohody",
             "podporuje posilování odolnosti české krajiny",
-            "ochranu klimatu považuje za důležitou, ale ne osobní prioritu"
+            "ochranu klimatu považuje za <b>důležitou, ale ne osobní prioritu</b>"
         ]
     },
     {
@@ -85,14 +84,14 @@
         "code": 2,
         "summary": "Odmítáte ochranu klimatu a Zelenou dohodu",
         "points": [
-            "typickým představitelem je muž ve věku 52 let",
-            "má maturitní vzdělání, nadprůměrné příjmy",
-            "chodí nadprůměrně k volbám, podporuje opoziční strany",
-            "sympatizuje s populistickými a autoritářskými vůdci",
-            "váhá nad kapitulací Ukrajiny, odmítá neziskové organizace",
-            "věří vědcům, ale změnu klimatu nepovažuje za hrozbu",
-            "podporuje jaderné a obnovitelné zdroje, ale odmítá uhlí",
-            "rezolutně odmítá Zelenou dohodu a ochranu klimatu"
+            "typickým představitelem je <b>muž</b> ve věku <b>52 let</b>",
+            "má maturitní vzdělání, <b>nadprůměrné příjmy</b>",
+            "chodí nadprůměrně k volbám, <b>podporuje opoziční strany</b>",
+            "<b>sympatizuje s populistickými</b> a autoritářskými vůdci",
+            "částečně podporuje kapitulaci Ukrajiny, <b>odmítá neziskové organizace</b>",
+            "věří vědcům, ale <b>změnu klimatu nepovažuje za hrozbu</b>",
+            "podporuje jaderné a obnovitelné zdroje, ale <b>nemá jasný názor na uhlí</b>",
+            "částečně <b>odmítá ochranu klimatu</b> a rezolutně Zelenou dohodu"
         ]
     },
     {
@@ -101,14 +100,14 @@
         "code": 6,
         "summary": "Zpochybňujete změnu klimatu a odmítáte ochranu klimatu i Zelenou dohodu",
         "points": [
-            "typickým představitelem je muž ve věku 53 let",
-            "má podprůměrné vzdělání, patří do střední třídy",
-            "prakticky vůbec nevěří médiím a institucím",
-            "podporuje vystoupení z Evropské unie",
+            "typickým představitelem je <b>muž</b> ve věku <b>53 let</b>",
+            "má <b>podprůměrné vzdělání</b>, patří do střední třídy",
+            "prakticky vůbec <b>nevěří médiím a institucím</b>",
+            "podporuje <b>vystoupení z Evropské unie</b>",
             "sympatizuje s populistickými a autoritářskými vůdci",
-            "odmítá snižování emisí a ochranu klimatu",
-            "schvaluje spalování uhlí a plynu, podporuje spalovací motory",
-            "rezolutně odmítá Zelenou dohodu a ekologická opatření"
+            "<b>odmítá snižování emisí</b> a ochranu klimatu",
+            "schvaluje spalování uhlí a plynu, <b>podporuje spalovací motory</b>",
+            "<b>rezolutně odmítá Zelenou dohodu</b> a ekologická opatření"
         ]
     }
 ]
