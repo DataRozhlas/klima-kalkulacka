@@ -3,7 +3,7 @@
         "title": "Angažované pro Zelenou dohodu",
         "share": "8 % populace",
         "code": 4,
-        "summary": "Silně podporujete ochranu klimatu včetně Zelené dohody",
+        "summary": "Silně podporují ochranu klimatu včetně Zelené dohody",
         "points": [
             "typickou představitelkou je <strong>žena</strong> ve věku <strong>44 let</strong>",
             "má <strong>nadprůměrné vzdělání</strong> a zastupuje střední třídu",
@@ -19,7 +19,7 @@
         "title": "Angažované bez Zelené dohody",
         "share": "8 % populace",
         "code": 5,
-        "summary": "Podporujete ochranu klimatu, ale máte pochybnosti o Zelené dohodě",
+        "summary": "Podporují ochranu klimatu, ale mají pochybnosti o Zelené dohodě",
         "points": [
             "typickou představitelkou je <b>žena</b> ve věku <b>53 let</b>",
             "má <b>nižší vzdělání</b>, patří do střední až nižší třídy",
@@ -35,7 +35,7 @@
         "title": "Sympatizující",
         "share": "22 % populace",
         "code": 1,
-        "summary": "Podporujete ochranu klimatu, ale zůstáváte obezřetní a pragmatičtí",
+        "summary": "Podporují ochranu klimatu, ale zůstávají obezřetní a pragmatičtí",
         "points": [
             "typickou představitelkou je <b>žena</b> ve věku <b>45 let</b>",
             "má <b>nadprůměrné vzdělání</b>, žije v domácnosti s mírně nadprůměrnými příjmy",
@@ -50,7 +50,7 @@
         "title": "Vlažné",
         "share": "23 % populace",
         "code": 0,
-        "summary": "Podporujete ochranu klimatu, ale obáváte se dopadů dekarbonizace",
+        "summary": "Podporují ochranu klimatu, ale obávají se dopadů dekarbonizace",
         "points": [
             "typickým představitelem je <b>muž</b> ve věku <b>47 let</b>",
             "má <b>středoškolské</b> vzdělání, <b>průměrné příjmy</b>",
@@ -66,7 +66,7 @@
         "title": "Nejisté",
         "share": "16 % populace",
         "code": 3,
-        "summary": "Uvědomujete si potřebu ochrany klimatu, ale váháte v mnoha otázkách",
+        "summary": "Uvědomují si potřebu ochrany klimatu, ale váhají v mnoha otázkách",
         "points": [
             "typickou představitelkou je <b>žena</b> ve věku <b>48 let</b>",
             "má <b>podprůměrné vzdělání</b>, žije v domácnosti s nižšími příjmy",
@@ -82,7 +82,7 @@
         "title": "Odmítající",
         "share": "18 % populace",
         "code": 2,
-        "summary": "Odmítáte ochranu klimatu a Zelenou dohodu",
+        "summary": "Odmítají ochranu klimatu i Zelenou dohodu",
         "points": [
             "typickým představitelem je <b>muž</b> ve věku <b>52 let</b>",
             "má maturitní vzdělání, <b>nadprůměrné příjmy</b>",
@@ -98,7 +98,7 @@
         "title": "Popírající",
         "share": "6 % populace",
         "code": 6,
-        "summary": "Zpochybňujete změnu klimatu a odmítáte ochranu klimatu i Zelenou dohodu",
+        "summary": "Zpochybňují změnu klimatu a odmítají ochranu klimatu i Zelenou dohodu",
         "points": [
             "typickým představitelem je <b>muž</b> ve věku <b>53 let</b>",
             "má <b>podprůměrné vzdělání</b>, patří do střední třídy",

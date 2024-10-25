@@ -148,10 +148,10 @@ function App() {
             <CardContent className="p-6 h-full">
               {<div className="h-full flex flex-col justify-between gap-6">
                 <div className="self-center">
-                  <CardDescription className={"text-center"}>Pravděpodobně patříte mezi</CardDescription>
-                  <CardTitle className={"text-3xl text-center"}>{summary.title}</CardTitle>
+                  <CardDescription className={"text-center"}>Vaše odpovědi jsou nejblíže tomu,<br />jak na otázky o ochraně klimatu odpovídali lidé ze skupiny</CardDescription>
+                  <CardTitle className={"text-3xl text-center pb-2"}>{summary.title}</CardTitle>
                   <CardDescription className={"text-center font-bold text-black"}>{summary.summary}.</CardDescription>
-                  <CardDescription className={"text-center  text-black"}>Vaše skupina tvoří {summary.share}.</CardDescription>
+                  <CardDescription className={"text-center  text-black"}>Tvoří {summary.share}.</CardDescription>
                 </div>
                 <div>
                   <figure>
@@ -161,6 +161,7 @@ function App() {
                 </div>
                 <div className="flex justify-between">
                   <div className="text-left mx-6">
+                    <CardDescription className={"text-center  text-black font-bold pb-4"}>Jak tito lidé odpověděli v dalších otázkách výzkumu?</CardDescription>
                     <ul className="list-disc">
                       {
                         summary.points.map((point, index) => {
@@ -179,7 +180,7 @@ function App() {
                         >
                           <Info className="h-8 w-8" />
                         </TooltipTrigger>
-                        <TooltipContent className="max-w-xs">Profily jednotlivých postav ukazují vždy určitého typického představitele či představitelku dané skupiny. Vycházejí z analýzy rozsáhlých reprezentativních dat a zároveň hledají způsoby, jak v grafické zkratce představit komplexní data pro širší publikum. Je však přirozené, že typický představitel či představitelka se nikdy neshoduje se všemi, kteří jsou statisticky do dané skuipiny zařazeni. Jako vždy, společenská realita pestřejší než dokáže vystihnout sedm kategorií.</TooltipContent>
+                        <TooltipContent className="max-w-xs">Profily jednotlivých postav ukazují vždy určitého typického představitele či představitelku dané skupiny. Vycházejí z analýzy rozsáhlých reprezentativních dat a zároveň hledají způsoby, jak v grafické zkratce představit komplexní data pro širší publikum. Je však přirozené, že typický představitel či představitelka se nikdy neshoduje se všemi, kteří jsou statisticky do dané skuipiny zařazeni. Jako vždy, společenská realita je pestřejší než dokáže vystihnout sedm kategorií.</TooltipContent>
                       </Tooltip>
                     </TooltipProvider>
                   </div>
