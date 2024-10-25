@@ -1,0 +1,246 @@
+[
+    {
+        "title": "Angažovaní pro Zelenou dohodu",
+        "tagline": "Silně podporují ochranu klimatu včetně Zelené dohody.",
+        "paragraphs": [
+            "Typickou představitelkou je žena ve věku 44 let. Má nadprůměrné vzdělání (s maturitou) a ekonomicky zastupuje klasickou střední třídu.  Má velký zájem o svět a širší kulturní rozhled. Z mediálních témat se zajímá o přírodu, životní prostředí a klima, zdraví a seberozvoj, dění v zahraničí, o válku na Ukrajině, cestopisy, film a hudbu, umění, vědecké objevy a technické novinky, ekonomiku a částečně i politiku.",
+            "K volbám chodí mírně nadprůměrně. Nejvíce podporuje strany vládní koalice, zejména ty liberální. Je prozápadně orientovaná, inspiraci hledá v moderních trendech. Stát by se podle ní měl více zabývat pomocí ohroženým skupinám obyvatel, ochranou před případným útokem Ruska, právy menšin a žen. Naopak se staví proti kapitulaci Ukrajiny, většímu vlivu katolické církve nebo vystoupení z Evropské unie. Neziskové organizace považuje za přínosné. Ve světě důvěřuje demokratickým lídrům, nikoliv populistickým a autoritářským vůdcům.",
+            "Klimatickou změnu vnímá jako obrovskou hrozbu a největší problém dnešní doby – v této oblasti se považuje za znepokojenější než je současná vláda. V klimatických otázkách důvěřuje vědcům, ochráncům přírody, Evropské unii, prezidentovi, neziskovým organizacím a částečně veřejnoprávním médiím. Sympatizuje s klimatickým hnutím. Volá po okamžité dekarbonizaci, považuji ji za příležitost i pro Česko. Věří, že všechny obtíže transformace zvládneme. Podporuje posílení odolnosti české krajiny, rozvoj obnovitelných a jaderných zdrojů (odmítá uhlí i plyn) a řadu dalších opatření na ochranu klimatu, včetně rozvoje elektromobility. Zelenou dohodu / Green Deal hodnotí jednoznačně pozitivně a ráda by zvýšila její klimatické cíle."
+        ],
+        "age": 44,
+        "females": 57,
+        "education": 64,
+        "opinions": [
+            31,
+            95,
+            93,
+            85,
+            91,
+            90,
+            96,
+            8,
+            75
+        ],
+        "share": 8,
+        "code": 4,
+        "points": [
+            "typickou představitelkou je <strong>žena</strong> ve věku <strong>44 let</strong>",
+            "má <strong>nadprůměrné vzdělání</strong> a zastupuje střední třídu",
+            "k volbám chodí mírně nadprůměrně, <strong>podporuje vládní koalici</strong>",
+            "je <strong>prozápadně orientovaná</strong>, inspiruje se moderními trendy",
+            "důvěřuje vědcům, Evropské unii, neziskovým organizacím, ochráncům přírody a prezidentovi",
+            "klimatickou změnu vnímá jako <strong>největší problém dnešní doby</strong>",
+            "volá po <strong>okamžité dekarbonizaci</strong>, podporuje obnovitelné a jaderné zdroje",
+            "hodnotí Zelenou dohodu pozitivně, chce zvýšit klimatické cíle"
+        ]
+    },
+    {
+        "title": "Angažovaní bez Zelené dohody",
+        "tagline": "Silně podporují ochranu klimatu, avšak mají pochybnosti o Zelené dohodě.",
+        "paragraphs": [
+            "Typickou představitelkou je žena ve věku 53 let bez maturitního vzdělání. Ekonomicky patří do střední až nižší střední třídy, částečně má ve své domácnosti problém vyjít s příjmy. V autě najede méně kilometrů než většina ostatních. Má velký zájem o svět kolem sebe, z mediálních témat ji zajímá příroda, životní prostředí a změna klimatu, zdraví a seberozvoj, cestopisy, příběhy ze života obyčejných lidí, filmy a hudba, dění v zahraničí a ekonomika, zahradničení a kutilství, částečně i vědecké objevy a umění.",
+            "Podprůměrně chodí k volbám, méně zvažuje volbu vládních stran, více opozičních (nikoliv protisystémových). Více zdůrazňuje sociální témata, přála by si menší majetkové rozdíly ve společnosti a přiklání se mírně k názoru, že se u nás žilo lépe před rokem 1989. Podporuje větší ochranu Česka před případným útokem Ruska, ale váhá, zda by Ukrajina neměla kapitulovat. Podporuje sňatky stejnopohlavních párů a pochybuje o přínosnosti neziskových organizací. Ve světě důvěřuje více demokratickým lídrům než populistickým a autoritářským vůdcům. Trochu pochybuje o současném politickém a ekonomickém systému.",
+            "V představitelce Angažovaných bez Zelené dohody vyvolává změna klimatu silné obavy, myslí si, že je jí znepokojenější než česká vláda. V klimatických otázkách důvěřuje vědcům a ochráncům přírody, částečně sympatizuje s klimatickým hnutím. Klimatickou změnu považuje za největší problém současnosti a ochranu klimatu za příležitost, nicméně obává se i dopadu dekarbonizace na ohrožené skupiny. Podporuje rozvoj obnovitelných a jaderných zdrojů, částečně i plynových, snižování emisí i posilování odolnosti české krajiny. Vlažněji se staví k podpoře elektromobility. V otázce budoucnosti Zelené dohody váhá a nemá vyhraněný názor."
+        ],
+        "age": 53,
+        "females": 66,
+        "education": 45,
+        "opinions": [
+            57,
+            92,
+            89,
+            78,
+            91,
+            90,
+            95,
+            31,
+            55
+        ],
+        "share": 8,
+        "code": 5,
+        "points": [
+            "typickou představitelkou je <b>žena</b> ve věku <b>53 let</b>",
+            "má <b>nižší vzdělání</b>, patří do střední až nižší třídy",
+            "chodí podprůměrně k volbám, podporuje spíše <b>opoziční strany</b>",
+            "klade důraz na sociální témata a menší majetkové rozdíly",
+            "<b>váhá ohledně kapitulace Ukrajiny</b>, podporuje stejnopohlavní sňatky",
+            "důvěřuje vědcům a ochráncům přírody",
+            "<b>obává se dopadu dekarbonizace</b> na ohrožené skupiny",
+            "podporuje obnovitelné a jaderné zdroje, částečně i plynové"
+        ]
+    },
+    {
+        "title": "Sympatizující",
+        "tagline": "Podporují ochranu klimatu a celou řadu opatření, v některých uvažovaných krocích však zůstávají obezřetní a pragmatičtí.",
+        "paragraphs": [
+            "Typickou představitelkou je žena ve věku 45 let. Má nadprůměrné vzdělání s maturitou a její domácnost mírně nadprůměrné příjmy. Se svou rodinou toho v autě i veřejné dopravě najezdí více než většina ostatních. V médiích ji zajímají témata zdraví a seberozvoje, přírody, životního prostředí a klimatu, filmů a hudby, cestopisů a vědeckých objevů, ekonomiky, kutilství a zahradničení, částečně i politiky.",
+            "Chodí nadprůměrně k volbám, častěji podporuje strany současné vládní koalice, především ty liberální, naopak více odmítá opoziční a zejména protisystémové strany. Je prozápadně orientovaná a inspiraci hledá v moderních trendech.",
+            "Změnu klimatu považuje za závažné riziko pro Česko i pro sebe. V klimatických otázkách důvěřuje vědcům, ochráncům přírody, Ministerstvu životního prostředí a neziskovým organizacím. Ochranu klimatu považuje za příležitost. Podporuje rozvoj obnovitelných zdrojů a částečně i těch jaderných, souhlasí se snižováním českých emisí skleníkových plynů, posilováním odolnosti české krajiny a její ochrany i řadou opatření v oblasti elektromobility. Změnu klimatu nepovažuje za největší problém dnešní doby, oceňuje praktický až pragmatický přístup k problematice. Na budoucnost Zelené dohody má ambivalentní názor: více ji podporuje než odmítá, ale částečně v ní také nemá jasno."
+        ],
+        "age": 45,
+        "females": 62,
+        "education": 64,
+        "opinions": [
+            38,
+            89,
+            90,
+            63,
+            76,
+            82,
+            88,
+            28,
+            65
+        ],
+        "share": 22,
+        "code": 1,
+        "points": [
+            "typickou představitelkou je <b>žena</b> ve věku <b>45 let</b>",
+            "má <b>nadprůměrné vzdělání</b>, žije v domácnosti s mírně nadprůměrnými příjmy",
+            "chodí nadprůměrně k volbám, <b>podporuje vládní koalici</b>",
+            "věří vědcům, ochráncům přírody, neziskovým organizacím a ministerstvu životního prostředí",
+            "podporuje obnovitelné a částečně jaderné zdroje",
+            "<b>oceňuje praktický přístup</b> k ochraně klimatu",
+            "má ambivalentní názor na Zelenou dohodu"
+        ]
+    },
+    {
+        "title": "Vlažní",
+        "tagline": "Podporují ochranu klimatu, ale dopadů dekarbonizace se obávají a odmítají Zelenou dohodu.",
+        "paragraphs": [
+            "Typickým představitelem je muž ve věku 47 let. Má středoškolské vzdělání s maturitou. Příjem jeho domácnosti je spíše průměrný, ale s penězi dokáže vyjít. Členové domácnosti jezdí nadprůměrně automobilem i veřejnou dopravou. V médiích ho zajímají témata zdraví, přírody, filmů a hudby, ostatní témata jen částečně nebo vůbec.",
+            "O něco méně často než ostatní chodí k volbám. Kdybychom chtěli zjistit, jaké jsou běžné názory české veřejnosti, stačilo by se zeptat právě zástupce Vlažných: ve svých politických názorech a voličských preferencích se významně neliší od většinových názorů v Česku. Je také spíše prozápadně orientovaný.",
+            "Ví, že změna klimatu probíhá a že je způsobena lidskou činností, očekává dopady klimatické změny na Českou republiku, ale příliš se jich neobává. V klimatických otázkách důvěřuje vědcům. Podporuje výstavbu dalších obnovitelných a jaderných zdrojů, ochranu krajiny a zvyšování její odolnosti. Vlažnější je však ke snižování emisí nebo konkrétním opatřením například v oblasti elektromobility. Váhá, jak moc je potřeba s dekarbonizací pospíchat. Obává se sociálních a ekonomických dopadů transformace a negativně vnímá tlaky seshora v této oblasti. Zelenou dohodu pro Evropu by oslabil nebo zrušil."
+        ],
+        "age": 47,
+        "females": 39,
+        "education": 56,
+        "opinions": [
+            49,
+            66,
+            67,
+            40,
+            47,
+            69,
+            48,
+            67,
+            34
+        ],
+        "share": 23,
+        "code": 0,
+        "points": [
+            "typickým představitelem je <b>muž</b> ve věku <b>47 let</b>",
+            "má <b>středoškolské</b> vzdělání, <b>průměrné příjmy</b>",
+            "chodí méně často k volbám, podporuje <b>prozápadní orientaci</b>",
+            "<b>důvěřuje vědcům</b>, ale nezneklidňují ho dopady klimatické změny",
+            "podporuje obnovitelné a jaderné zdroje",
+            "váhá nad snižováním emisí a dekarbonizací",
+            "<b>negativně vnímá tlaky seshora</b> v oblasti ochrany klimatu",
+            "odmítá Zelenou dohodu, <b>obává se sociálních a ekonomických dopadů</b>"
+        ]
+    },
+    {
+        "title": "Nejistí",
+        "tagline": "Uvědomují si potřebu ochrany klimatu, ale s odpovědí na řadu otázek váhají nebo neumí odpovědět.",
+        "paragraphs": [
+            "Typickou představitelkou je žena ve věku 48 let. Má spíše podprůměrné vzdělání, žije v domácnosti s nižšími příjmy, s penězi vychází částečně s obtížemi. Přestože má veřejné služby trochu dále než většina ostatních, ve srovnaní s ostatními cestuje méně. V médiích ji zajímají témata zdraví a přírody, částečně životního prostředí, k ostatním tématům je spíše netečná.",
+            "Voličsky se neodlišuje od průměrných voličských preferencí v České republice, nicméně politiku sleduje nejméně a má nejnižší zájem o účast ve volbách. K řadě otázek se nedovede vyjádřit a nemá vyhraněné názory.",
+            "Typická představitelka Nejistých je přesvědčena, že změna klimatu probíhá a je způsobena lidskou činností. Její dopady považuje za závažné pro Česko, avšak osobně se necítí jejími dopady ohrožena. V klimatických otázkách důvěřuje vědcům a ochráncům přírody. Záleží jí na ochraně klimatu, podporuje využívání obnovitelných zdrojů a posilování odolnosti české krajiny, váhá se snižováním emisí skleníkových plynů. Nemá vyhraněný názor na budoucnost Zelené dohody."
+        ],
+        "age": 48,
+        "females": 74,
+        "education": 47,
+        "opinions": [
+            50,
+            64,
+            67,
+            37,
+            48,
+            72,
+            57,
+            19,
+            27
+        ],
+        "share": 16,
+        "code": 3,
+        "points": [
+            "typickou představitelkou je <b>žena</b> ve věku <b>48 let</b>",
+            "má <b>podprůměrné vzdělání</b>, žije v domácnosti s nižšími příjmy",
+            "politiku sleduje nejméně, <b>méně často chodí k volbám</b>",
+            "důvěřuje vědcům a ochráncům přírody",
+            "<b>váhá se snižováním emisí</b> skleníkových plynů",
+            "<b>nemá vyhraněný názor</b> na budoucnost Zelené dohody",
+            "podporuje posilování odolnosti české krajiny",
+            "ochranu klimatu považuje za <b>důležitou, ale ne osobní prioritu</b>"
+        ]
+    },
+    {
+        "title": "Odmítající",
+        "tagline": "Změny klimatu se neobávají, vymezují se vůči ochraně klimatu a odmítají Green Deal.",
+        "paragraphs": [
+            "Typickým představitelem je muž ve věku 52 let. Má maturitní vzdělání a žije v nadprůměrně zajištěné domácnosti s příjmy, se kterými dokáže dobře vyjít. V médiích ho zajímají témata přírody a zdraví, cestopisů a dění v zahraničí, kutilství a zahradničení, filmů, částečně také politiky, aut a motocyklů, sportu ad.",
+            "Chodí nadprůměrně k volbám, výrazně podporuje opoziční strany, částečně i ty protisystémové. Negativně hodnotí strany vládní koalice, především ty liberální. Ve světě více sympatizuje s populistickými a autoritářskými vůdci než s demokratickými lídry. V otázkách ruské agrese částečně podporuje kapitulaci Ukrajiny, váhal by v případném referendu o vystoupení z Evropské unie.",
+            "Představitel Odmítajících se sice přiklání k názoru, že změna klimatu probíhá, ale není přesvědčen, že její příčinou jsou lidské aktivity. Přestože v klimatických otázkách uvádí, že věří vědcům (nikomu jinému ne), dopady změny klimatu nepovažuje pro Česko za závažné ani urgentní a osobně se jich neobává. Podporuje posilování odolnosti české krajiny a šetrné zemědělské hospodaření, rozvoj jaderných, obnovitelných a plynových zdrojů. Nemá jasný názor na uhlí, je velkým zastáncem spalovacích motorů."
+        ],
+        "age": 52,
+        "females": 37,
+        "education": 53,
+        "opinions": [
+            61,
+            58,
+            56,
+            21,
+            23,
+            72,
+            24,
+            97,
+            31
+        ],
+        "share": 18,
+        "code": 2,
+        "points": [
+            "typickým představitelem je <b>muž</b> ve věku <b>52 let</b>",
+            "má maturitní vzdělání, <b>nadprůměrné příjmy</b>",
+            "chodí nadprůměrně k volbám, <b>podporuje opoziční strany</b>",
+            "<b>sympatizuje s populistickými</b> a autoritářskými vůdci",
+            "částečně podporuje kapitulaci Ukrajiny, <b>odmítá neziskové organizace</b>",
+            "věří vědcům, ale <b>změnu klimatu nepovažuje za hrozbu</b>",
+            "podporuje jaderné a obnovitelné zdroje, ale <b>nemá jasný názor na uhlí</b>",
+            "částečně <b>odmítá ochranu klimatu</b> a rezolutně Zelenou dohodu"
+        ]
+    },
+    {
+        "title": "Popírající",
+        "tagline": "Zpochybňují změnu klimatu a ostře odmítají ochranu klimatu a Zelenou dohodu.",
+        "paragraphs": [
+            "Typickým představitelem je muž ve věku 53 let. Má průměrné či lehce podprůměrné vzdělání, ekonomicky patří do střední nebo vyšší střední třídy, byť občas pociťuje nedostatek prostředků. Hodnotově je zaměřen více technicky a materiálně. V médiích ho zajímají témata přírody a kutilství, technických novinek a vědeckých objevů, zdraví, politiky, částečně také ekonomiky.",
+            "Prakticky vůbec nevěří médiím a českým institucím, přiklání se vystoupení z Evropské unie a podporuje kapitulaci Ukrajiny. Vymezuje se proti neziskovým organizacím, lidským právům, otázkám rovných práv pro ženy, menšin a je rezervovaný k sociálním opatřením na podporu ohrožených skupin. Voličskou morálku má vyšší než ostatní, podporuje převážně opoziční a zejména ty protisystémové strany. Sympatizuje s řadou populistických a autoritářských vůdců ve světě.",
+            "V ochraně přírody a životního prostředí má rezervovaný přístup a ekologické problémy často zpochybňuje, přestože se přiklání k větší ochraně české krajiny. V klimatických otázkách nevěří nikomu, ani vědcům. Mírně v něm převažují sympatie k obnovitelným zdrojům, ale odmítá snižování emisí plynů poškozujících klima. Schvaluje spalování uhlí a plynu, je velkým zastáncem spalovacích motorů. Nájezd automobilu má podprůměrný, ale je na něm více závislý při svých každodenních cestách. S ochranou klimatu rozhodně nesouhlasí a Zelenou dohodu by zrušil."
+        ],
+        "age": 53,
+        "females": 18,
+        "education": 49,
+        "opinions": [
+            81,
+            43,
+            37,
+            12,
+            4,
+            57,
+            4,
+            98,
+            11
+        ],
+        "share": 6,
+        "code": 6,
+        "points": [
+            "typickým představitelem je <b>muž</b> ve věku <b>53 let</b>",
+            "má <b>podprůměrné vzdělání</b>, patří do střední třídy",
+            "prakticky vůbec <b>nevěří médiím a institucím</b>",
+            "podporuje <b>vystoupení z Evropské unie</b>",
+            "sympatizuje s populistickými a autoritářskými vůdci",
+            "<b>odmítá snižování emisí</b> a ochranu klimatu",
+            "schvaluje spalování uhlí a plynu, <b>podporuje spalovací motory</b>",
+            "rezolutně <b>odmítá myšlenky ochrany klimatu</b> a Zelenou dohodu"
+        ]
+    }
+]

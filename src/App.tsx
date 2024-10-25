@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import questions from './assets/data/questions.json'
 import summaries from './assets/data/summaries.json'
+import details from './assets/data/details.json'
+import detailsQuestions from './assets/data/detailsQuestions.json'
 import { Card, CardContent, CardTitle, CardDescription } from "@/components/ui/card"
 import {
   Carousel,
@@ -21,6 +23,13 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
 import { ArrowRight, Info } from 'lucide-react'
 
 import { usePostMessageWithHeight } from './hooks/usePostHeightMessage'
@@ -37,13 +46,14 @@ function App() {
   const [summary, setSummary] = useState<{ title: string, share: string, code: null | number, summary: string, points: string[] }>({ title: "", share: "", code: null, summary: "", points: [] });
   const [vyhodnotit, setVyhodnotit] = useState(false)
   const [tooltipVisible, setTooltipVisible] = useState(false)
-
+  const [accordionVisible, setAccordionVisible] = useState(false)
+  const [detailsData, setDetailsData] = useState(details.find(d => d.code === group))
 
   const { containerRef, postHeightMessage } = usePostMessageWithHeight(`klima-kalkulacka-24`)
 
   useEffect(() => {
     postHeightMessage()
-  }, [current, vyhodnotit, group])
+  }, [current, vyhodnotit, group, accordionVisible])
 
 
   useEffect(() => {
@@ -84,6 +94,12 @@ function App() {
       evaluateData(result)
     }
   }, [result])
+
+  useEffect(() => {
+    if (group !== null) {
+      setDetailsData(details.find(d => d.code === group))
+    }
+  }, [group])
 
   return (
     <div ref={containerRef} className="max-w-[620px] mx-auto py-4">
@@ -169,7 +185,10 @@ function App() {
                         })
                       }
                     </ul>
+
+
                   </div>
+
                   <div className="self-start">
                     <TooltipProvider>
                       <Tooltip open={tooltipVisible} onOpenChange={setTooltipVisible}>
@@ -184,6 +203,46 @@ function App() {
                       </Tooltip>
                     </TooltipProvider>
                   </div>
+                </div>
+                {accordionVisible}
+                <div>
+                  <Accordion type="single" collapsible onClick={() => (setAccordionVisible(!accordionVisible))}>
+                    <AccordionItem value="item-1">
+                      <AccordionTrigger>Více informací o této skupině</AccordionTrigger>
+                      <AccordionContent>
+                        <div>
+                          <div className="flex justify-between">
+                            <div className="text-center">
+                              <div className="text-xl font-bold text-zinc-400">{detailsData?.age} let</div>
+                              <div className="font-semibold">věkový průměr</div>
+                            </div>
+                            <div className="text-center">
+                              <div className="text-xl font-bold text-zinc-400">{100 - (detailsData?.females ?? 0)} %</div>
+                              <div className="font-semibold">muži</div>
+                            </div>
+                            <div className="text-center">
+                              <div className="text-xl font-bold text-zinc-400">{detailsData?.education} %</div>
+                              <div className="font-semibold">vzdělání s maturitou</div>
+                            </div>
+                          </div>
+                          <div>
+                            <div className="mb-3 mt-6 py-1 rounded-md font-semibold text-center bg-zinc-200">Souhlasí s tvrzením</div>
+                            {detailsQuestions.map((question, index) => {
+                              return (
+                                <div key={index} className="flex py-2 gap-4 items-center">
+                                  <div className="min-w-20 h-[1rem] rounded-md border-black border-solid border-2">
+                                    <div className={"h-full bg-black"} style={{ width: `${detailsData?.opinions[index]}%` }} ></div>
+                                  </div>
+                                  <div className="text-sm font-semibold text-nowrap">{detailsData?.opinions[index]} %</div>
+                                  <div className="">{question}</div>
+                                </div>
+                              )
+                            })}
+                          </div>
+                        </div>
+                      </AccordionContent>
+                    </AccordionItem>
+                  </Accordion>
                 </div>
                 <Button
                   onClick={
