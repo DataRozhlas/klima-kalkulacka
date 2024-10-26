@@ -1,6 +1,6 @@
 [
     {
-        "title": "Angažované pro Zelenou dohodu",
+        "title": "Angažovaní pro Zelenou dohodu",
         "share": "8 % populace",
         "code": 4,
         "summary": "Silně podporují ochranu klimatu včetně Zelené dohody",
@@ -16,7 +16,7 @@
         ]
     },
     {
-        "title": "Angažované bez Zelené dohody",
+        "title": "Angažovaní bez Zelené dohody",
         "share": "8 % populace",
         "code": 5,
         "summary": "Podporují ochranu klimatu, ale mají pochybnosti o Zelené dohodě",
@@ -47,7 +47,7 @@
         ]
     },
     {
-        "title": "Vlažné",
+        "title": "Vlažní",
         "share": "23 % populace",
         "code": 0,
         "summary": "Podporují ochranu klimatu, ale obávají se dopadů dekarbonizace",
@@ -63,7 +63,7 @@
         ]
     },
     {
-        "title": "Nejisté",
+        "title": "Nejistí",
         "share": "16 % populace",
         "code": 3,
         "summary": "Uvědomují si potřebu ochrany klimatu, ale váhají v mnoha otázkách",
